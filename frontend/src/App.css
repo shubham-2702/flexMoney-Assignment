@@ -1,0 +1,25 @@
+.box {
+  width: 40%;
+  margin: auto;
+  display: block;
+  border: 1px solid rgb(77, 77, 77);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.form {
+  margin-top: 20px;
+}
+.right{
+  position:relative;
+  right: 0;
+}
