@@ -10,7 +10,7 @@ const Pay = () => {
             email: e.target.email.value,
             batch: e.target.batch.value
         }
-        axios.post('http://localhost:8000/pay', data)
+        axios.post('/pay', data)
             .then(response => {
                 setMsg("Successfully Paid")
             }).catch(err => {

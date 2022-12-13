@@ -11,7 +11,7 @@ const Register = () => {
             age: e.target.age.value,
             batch: e.target.batch.value
         }
-        axios.post('http://localhost:8000/register', data)
+        axios.post('/register', data)
             .then(response => {
                 setMsg("Successfully Paid")
             }).catch(err => {

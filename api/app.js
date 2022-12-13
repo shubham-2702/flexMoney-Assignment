@@ -1,9 +1,11 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+const {MONGO_KEY}=require('./config/keys');
 mongoose.set('strictQuery', false)
 
-mongoose.connect('mongodb://0.0.0.0:27017/internDB', {
+console.log(MONGO_KEY)
+mongoose.connect(MONGO_KEY, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -104,4 +106,4 @@ app.get("/status", (req, res, next) => {
         })
 })
 
-app.listen(8000)
+app.listen(process.env.PORT || 8000);

@@ -8,7 +8,7 @@ const UserInfo = () => {
     const [data, setData] = useState({})
     const submit = (e) => {
         e.preventDefault()
-        axios.get('http://localhost:8000/status?email=' + e.target.email.value)
+        axios.get('/status?email=' + e.target.email.value)
             .then(response => {
                 setData(response.data)
             }).catch(err => {

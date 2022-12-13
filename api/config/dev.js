@@ -1,0 +1,1 @@
+module.exports={MONGO_KEY:"mongodb+srv://shubham2427:shubham2427@cluster0.4kea5g9.mongodb.net/?retryWrites=true&w=majority"}
