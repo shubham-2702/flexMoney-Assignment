@@ -15,3 +15,10 @@ Approach:
 1. Whenever a new customer wants to join the classes , he/she needs to enter basic details and do payment for the current month. Data is stored on mongoDB database.
 2. Any customer can get their details and plan status when he/she hits Info route in navigation.
 3. From next month customer can do their payment form pay page in navigation.
+
+
+Video:
+
+
+https://user-images.githubusercontent.com/71482898/207416714-b84ba2a1-433a-4fd9-adfb-b85fe14cefac.mp4
+
